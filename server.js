@@ -8,7 +8,7 @@ const { sendMessage } = require('./controllers/message.ctrl');
 decorate(app);
 
 // app.get('/api/fact', catFacts);
-app.post('/api/sendMessage', sendMessage);
+app.post('/api/sendmessage', sendMessage);
 
 
 

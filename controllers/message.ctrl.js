@@ -19,10 +19,10 @@ const getCatFacts = (req, res, next) => {
 
 async function sendMessage(req, res, next) {
   console.log('queries', req.query);
+  const { message } = req.body;
 
   try {
-    const catFact = await getCatFacts();
-    axios.post(slackHook, {"text": catFact.data});
+    axios.post(slackHook, {"text": message});
     res.sendStatus(200);
   } catch (err) {
     console.log('err');
