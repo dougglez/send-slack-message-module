@@ -23,7 +23,7 @@ async function sendMessage(req, res, next) {
 
   try {
     axios.post(slackHook, {"text": message});
-    res.sendStatus(200);
+    res.status(200).send('Shut up');
   } catch (err) {
     console.log('err');
     console.log(err);
