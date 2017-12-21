@@ -7,5 +7,5 @@ module.exports = (req, res, next) => {
   }
   console.log('Req Keys:', Object.keys(req));
 
-
+  res.status(200).send('Staaaahhhhpppp');
 };
