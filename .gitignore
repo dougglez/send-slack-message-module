@@ -1,4 +1,6 @@
+.idea/
 node_modules
 config/default.config.js
 config/massive.config.js
 controllers/test.ctrl.js
+zzzUnused/
