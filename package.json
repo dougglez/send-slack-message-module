@@ -1,6 +1,8 @@
 {
-  "name": "Slack messenger",
+  "name": "slack_messenger",
   "version": "0.1.0",
+  "author": "dougglez",
+  "url": "https://github.com/dougglez/slack_messenger",
   "description": "Alpha testing version",
   "main": "index.js",
   "presets": [
@@ -17,7 +19,6 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "dougglez",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1"
