@@ -1,8 +1,8 @@
 {
-  "name": "slack_messenger",
-  "version": "0.1.0",
+  "name": "slack-messenger",
+  "version": "0.1.14",
   "author": "dougglez",
-  "url": "https://github.com/dougglez/slack_messenger",
+  "repository": "https://github.com/dougglez/slack-messenger",
   "description": "Alpha testing version",
   "main": "index.js",
   "presets": [
@@ -11,7 +11,7 @@
       "targets": {
         "node": true
       },
-    "debug": true
+      "debug": true
     }
   ],
   "scripts": {
